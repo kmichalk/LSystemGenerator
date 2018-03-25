@@ -1,0 +1,32 @@
+#include "DragHandler.h"
+#include "Plot.h"
+
+
+
+DragHandler::DragHandler(Plot* parent):
+	parent(parent),
+	grabOffset(0,0),
+	grabMousePos(0,0),
+	prevShape(),
+	dragging(false)
+{
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+DragHandler::~DragHandler() {
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+void DragHandler::grab() {
+	grabOffset = parent->getOrigin();
+	grabMousePos = QCursor::pos();
+	dragging = true;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+void DragHandler::release() {
+	dragging = false;
+}

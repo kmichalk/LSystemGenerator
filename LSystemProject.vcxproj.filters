@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\LSystem">
+      <UniqueIdentifier>{40f1338f-12e8-4406-8a2e-049ae4a5f5b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LSystem">
+      <UniqueIdentifier>{42f517e5-dea6-4a3f-a7a5-d9cf42d162a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global">
+      <UniqueIdentifier>{9e97649e-dac2-4923-a239-e05cd55247fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Allocator">
+      <UniqueIdentifier>{27d4a3ef-fcbf-4e4b-83b1-6c8464b2a211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GeometricAction">
+      <UniqueIdentifier>{d9cade8b-709d-42d1-9ae7-4e148f526ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GeometricAction">
+      <UniqueIdentifier>{e5cff871-5402-486d-a1fc-50770f984475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Plot">
+      <UniqueIdentifier>{5c04859f-d43c-4012-ae3f-71fdb72c1517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Plot">
+      <UniqueIdentifier>{1766e043-b19a-4d59-b2fb-8b05f9035383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Parser">
+      <UniqueIdentifier>{e099a750-7869-415f-ac1d-252a63e87234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parser">
+      <UniqueIdentifier>{1ff1a670-48ec-425e-9521-8d103f26c64f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Settings">
+      <UniqueIdentifier>{2e353611-7ebb-455c-bb74-42b4f39c6d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Settings">
+      <UniqueIdentifier>{94dda50a-defb-4a82-98d1-e505c550d7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Plot\Render">
+      <UniqueIdentifier>{fc60b547-2f5f-4e32-aa1c-6ed092d3c061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Thread">
+      <UniqueIdentifier>{e1896eab-5e3c-45a6-a1ad-6f448ab83ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thread">
+      <UniqueIdentifier>{61d6fa8e-3095-4d19-a631-241694d1aaf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Plot\Render">
+      <UniqueIdentifier>{64bd17e3-9a17-4205-bc55-71b09d68d6e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LSystemProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LSystemProject.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_LSystemProject.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Condition.cpp">
+      <Filter>Source Files\LSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Grammar.cpp">
+      <Filter>Source Files\LSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Production.cpp">
+      <Filter>Source Files\LSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Symbol.cpp">
+      <Filter>Source Files\LSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricAction.cpp">
+      <Filter>Source Files\GeometricAction</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricActionMap.cpp">
+      <Filter>Source Files\GeometricAction</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Plot.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Plot.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Plot.cpp">
+      <Filter>Source Files\Plot</Filter>
+    </ClCompile>
+    <ClCompile Include="Painter.cpp">
+      <Filter>Source Files\Plot</Filter>
+    </ClCompile>
+    <ClCompile Include="LSystemGenerator.cpp">
+      <Filter>Source Files\LSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GrammarParser.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductionParser.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="PainterStateStack.cpp">
+      <Filter>Source Files\Plot</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricActionSequence.cpp">
+      <Filter>Source Files\GeometricAction</Filter>
+    </ClCompile>
+    <ClCompile Include="DragHandler.cpp">
+      <Filter>Source Files\Plot</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DragHandler.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DragHandler.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsManager.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformation.cpp">
+      <Filter>Source Files\GeometricAction</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoomHandler.cpp">
+      <Filter>Source Files\Plot</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsTableModel.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="GrammarComputer.cpp">
+      <Filter>Source Files\LSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SettingsTableModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SettingsTableModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsEditor.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SettingsEditor.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsUser.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadUnit.cpp">
+      <Filter>Source Files\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="PlotRenderer.cpp">
+      <Filter>Source Files\Plot\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiThreadPlotRenderer.cpp">
+      <Filter>Source Files\Plot\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderJob.cpp">
+      <Filter>Source Files\Plot\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>Source Files\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadProcess.cpp">
+      <Filter>Source Files\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerThread.cpp">
+      <Filter>Source Files\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Job.cpp">
+      <Filter>Source Files\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderWidget.cpp">
+      <Filter>Source Files\Plot\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RenderWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RenderWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="LSystemProject.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LSystemProject.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LSystemProject.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Plot.h">
+      <Filter>Header Files\Plot</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DragHandler.h">
+      <Filter>Header Files\Plot</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SettingsTableModel.h">
+      <Filter>Header Files\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SettingsEditor.h">
+      <Filter>Header Files\Settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RenderWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RenderWidget.h">
+      <Filter>Header Files\Plot\Render</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_LSystemProject.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Allocator.h">
+      <Filter>Header Files\Allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultAllocator.h">
+      <Filter>Header Files\Allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="Pool.h">
+      <Filter>Header Files\Allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Header Files\global</Filter>
+    </ClInclude>
+    <ClInclude Include="Condition.h">
+      <Filter>Header Files\LSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.h">
+      <Filter>Header Files\LSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Grammar.h">
+      <Filter>Header Files\LSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameterBind.h">
+      <Filter>Header Files\LSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Production.h">
+      <Filter>Header Files\LSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Symbol.h">
+      <Filter>Header Files\LSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Header Files\global</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricAction.h">
+      <Filter>Header Files\GeometricAction</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricActionMap.h">
+      <Filter>Header Files\GeometricAction</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricActionDef.h">
+      <Filter>Header Files\GeometricAction</Filter>
+    </ClInclude>
+    <ClInclude Include="Painter.h">
+      <Filter>Header Files\Plot</Filter>
+    </ClInclude>
+    <ClInclude Include="LSystemGenerator.h">
+      <Filter>Header Files\LSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformation.h">
+      <Filter>Header Files\GeometricAction</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionFactory.h">
+      <Filter>Header Files\LSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NPNExpressionParser.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionParser.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="PainterStateStack.h">
+      <Filter>Header Files\Plot</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricActionSequence.h">
+      <Filter>Header Files\GeometricAction</Filter>
+    </ClInclude>
+    <ClInclude Include="Var.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsManager.h">
+      <Filter>Header Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting.h">
+      <Filter>Header Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductionParser.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="GrammarParser.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoomHandler.h">
+      <Filter>Header Files\Plot</Filter>
+    </ClInclude>
+    <ClInclude Include="GrammarComputer.h">
+      <Filter>Header Files\LSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingReference.h">
+      <Filter>Header Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsUser.h">
+      <Filter>Header Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiThreadPlotRenderer.h">
+      <Filter>Header Files\Plot\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="PlotRenderer.h">
+      <Filter>Header Files\Plot\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadUnit.h">
+      <Filter>Header Files\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_RenderWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Job.h">
+      <Filter>Header Files\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderJob.h">
+      <Filter>Header Files\Plot\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Header Files\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadProcess.h">
+      <Filter>Header Files\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerThread.h">
+      <Filter>Header Files\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Statistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
